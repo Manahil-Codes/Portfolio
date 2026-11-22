@@ -258,6 +258,13 @@
         .anim-calc i { animation: popCalc 1.5s infinite alternate; }
         @keyframes popCalc { 0% { transform: scale(1) rotate(-10deg); color: var(--neon-blue); } 100% { transform: scale(1.2) rotate(10deg); color: var(--neon-cyan); } }
 
+                /* Brain / MindQuest Animation */
+        .anim-brain i { animation: pulseBrain 2.5s infinite alternate; }
+        @keyframes pulseBrain { 
+            0% { transform: scale(0.9); opacity: 0.6; color: var(--neon-purple); text-shadow: 0 0 10px var(--neon-purple); } 
+            100% { transform: scale(1.15); opacity: 1; color: var(--neon-cyan); text-shadow: 0 0 30px var(--neon-cyan); } 
+        }
+        
         /* Weather Animation */
         .anim-weather { background: linear-gradient(to bottom, #040814, #0f172a); }
         .anim-weather i { animation: floatWeather 4s infinite ease-in-out; }
@@ -346,7 +353,7 @@
     <section id="home">
         <p class="hero-greeting">👋 HELLO, I'M</p>
         <h1 class="hero-name">Manahil <span>Tahir</span></h1>
-        <p class="hero-title">Information Technology Student & Web Developer</p>
+        <p class="hero-title">Information Technology Student & FullStack Developer</p>
         <div class="hero-buttons">
             <a href="#about" class="btn btn-primary">Contact Me</a>
             
@@ -442,7 +449,7 @@
             <!-- Project 1: SkillSync-AI -->
             <div class="project-card reveal">
                 <div class="project-animation anim-ai">
-                    <i class="fas fa-brain"></i>
+                   <i class="fas fa-robot"></i>
                 </div>
                 <div class="project-info">
                     <h3>SkillSync AI</h3>
@@ -491,7 +498,7 @@
                     </div>
                     <div class="project-links">
                         <!-- YAHAN APNA LIVE DEMO LINK DALEIN -->
-                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="https://manahil-codes.github.io/Multi-Mode-Web-Calculator/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
                     </div>
                 </div>
             </div>
@@ -510,7 +517,26 @@
                     </div>
                     <div class="project-links">
                         <!-- YAHAN APNA LIVE DEMO LINK DALEIN -->
-                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="https://manahil-codes.github.io/Weather-Forecast/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+
+                        <!-- Project 5: MindQuest -->
+            <div class="project-card reveal">
+                <div class="project-animation anim-brain">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <div class="project-info">
+                    <h3>MindQuest - Brain Training Game</h3>
+                    <span class="project-timeline">📅 Web Development Project</span>
+                    <p>An interactive brain training web app featuring logic, memory, and math challenges with real-time scoring, countdown timers, and persistent high scores using Local Storage.</p>
+                    <div class="project-tags">
+                        <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>DOM</span><span>Local Storage</span>
+                    </div>
+                    <div class="project-links">
+                        <!-- YAHAN APNA MINDQUEST KA LIVE DEMO LINK DALEIN -->
+                        <a href="https://manahil-codes.github.io/Interactive-Brain-Training-Game/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
                     </div>
                 </div>
             </div>
